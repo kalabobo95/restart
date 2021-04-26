@@ -1,4 +1,4 @@
-# restart
+# restart -- 每天进步一点点，加油！！
 
 ## python 语法
 1. assert
