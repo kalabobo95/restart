@@ -25,3 +25,11 @@
 
 5. emit()监听事件  
     在emit触发事件之后，会先寻找是否存在对应的事件监听，如果有优先执行其回调函数，执行完毕后才会返回值
+
+6. 解构赋值  
+    `const { tempFilePath } = res;`  
+    直接把对象中的tempFilePage 属性定义为变量，变量修饰符为 const 。
+
+7. process对象  
+    process对象是Node的一个全局对象，提供当前Node进程的信息。它可以在脚本的任意位置使用，不必通过require命令加载。
+

@@ -1,0 +1,7 @@
+1. node js
+
+2. docker
+
+3. nginx
+
+4. mongodb
