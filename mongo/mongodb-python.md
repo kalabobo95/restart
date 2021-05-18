@@ -21,7 +21,7 @@
     2. 插入多个文档
     ```
     mylist = [
-        {'name': 'Taobo', 'url': 'https://www.taobo.com'},
+        {'name': 'Taobo', 'url': 'https://www.taobao.com'},
         {'name': 'Zhihu', 'url': 'https://www.zhuhu.com'},
         {'name': 'Github', 'url': 'https://www.github.com'},
     ]
