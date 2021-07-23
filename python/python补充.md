@@ -1,3 +1,16 @@
+## 根据文件安装Python包
+- 将需要安装的包写在一个txt文档中
+```
+pip install -r [file-name] -i [mirror-source]
+pip install -r F:\package.txt -i https://mirrors.aliyun.com/pypi/simple/
+```
+
+## assert
+```
+assert expression[, expression] [, arguments]
+expression 结果为True则正常执行，为False则触发异常
+```
+
 ## property 和 属性名.setter 装饰器
 - property装饰器将一个get方法转换为对象属性
 - setter装饰器将一个set方法装换位对象属性
