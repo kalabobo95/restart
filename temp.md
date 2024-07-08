@@ -10,7 +10,7 @@ TA
 
 4. 关键点选取·：
 
-   1. 首先我们选择一种统计方式来采样尖峰值，这里我们尝试使用SOD(sum of differentials)[$\sum(K_1-k_2),for k1\neq k2 and here k1\ k2 \in (HW(0,8))$]，我们将HW（n,i）以及对应的Trace(n,j)做一个分组T0 to T8，得到
+   1. 首先我们选择一种统计方式来采样尖峰值，这里我们尝试使用SOD(sum of differentials)$`[$\sum(K_1-k_2),for k1\neq k2 and here k1\ k2 \in (HW(0,8))$]`$，我们将HW（n,i）以及对应的Trace(n,j)做一个分组T0 to T8，得到
 
       > 1. get mean trace[HW[i],j]for i in n [get mean power of each set for 0 to 8 ]
       > 2.  get sum $T_i -Tk,k\neq i$, then return poi = sum.argmax [get the differential for each set]
